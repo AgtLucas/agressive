@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/agressive/issues"
   },
-  "homepage": "https://github.com/AgtLucas/agressive#readme"
+  "homepage": "https://github.com/AgtLucas/agressive#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
 }
