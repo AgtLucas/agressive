@@ -1,7 +1,7 @@
 {
   "name": "agressive",
   "version": "1.0.0",
-  "description": ":rage:",
+  "description": "Playing with React + Browserify",
   "main": "index.js",
   "scripts": {
     "start": "build/build-development",
