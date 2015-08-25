@@ -4,6 +4,7 @@ import React from 'react/addons';
 import serveStatic from 'serve-static';
 import Router from 'react-router';
 import App from './components/app';
+import routes from './routes';
 
 var app = express();
 app.engine('html', hbs({ extname: 'html' }));
