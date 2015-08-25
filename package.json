@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/AgtLucas/agressive#readme",
   "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
     "react": "^0.13.3"
   },
   "devDependencies": {
@@ -29,7 +31,14 @@
   },
   "browserify": {
     "transform": [
-      ["babelify", { "stage": [0] }]
+      [
+        "babelify",
+        {
+          "stage": [
+            0
+          ]
+        }
+      ]
     ]
   }
 }
