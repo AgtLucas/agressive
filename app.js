@@ -10,7 +10,7 @@ app.locals.settings['x-powered-by'] = false;
 
 app.get('/', function home(req, res, next) {
   res.render('layout', {
-    reactHtml: React.renderToString(<App />);
+    reactHtml: React.renderToString(<App />)
   });
 });
 
