@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../components/app';
+import App from '../components/app.jsx';
 
 var main = document.getElementsByTagName('main')[0];
 
