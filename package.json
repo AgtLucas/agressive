@@ -4,6 +4,7 @@
   "description": ":rage:",
   "main": "index.js",
   "scripts": {
+    "start" "build/build-development",
     "babel-node": "babel-node --stage 0"
   },
   "repository": {
