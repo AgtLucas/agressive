@@ -4,7 +4,7 @@ import App from './components/app';
 import HomeIndex from './components/home/index';
 
 export default (
-  <Route path="/" handler={App}>
+  <Route path='/' handler={App}>
     <DefaultRoute handler={HomeIndex} />
   </Route>
 );
