@@ -1,7 +1,10 @@
 import React from 'react';
-import {Route} from 'react-router';
+import {Route, DefaultRoute} from 'react-router';
+import App from './components/app';
 import HomeIndex from './components/home/index';
 
 export default (
-  <Route path="/" handler={HomeIndex}></Route>
+  <Route path="/" handler={App}>
+    <DefaultRoute handler={HomeIndex} />
+  </Route>
 );
