@@ -1,5 +1,6 @@
 import React from 'react';
 import Router from 'react-router';
+import Layout from './components/Layout';
 import routes from './routes';
 
 export default function router(req, res, next) {
