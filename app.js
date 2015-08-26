@@ -4,7 +4,6 @@ import React from 'react/addons';
 import serveStatic from 'serve-static';
 import Router from 'react-router';
 import App from './components/app';
-import routes from './routes';
 import router from './router';
 
 var app = express();
