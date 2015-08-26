@@ -7,6 +7,9 @@ export default class Layout extends React.Component {
 
     return(
       <html>
+        <head>
+          <title>{DocumentTitle.rewind()}</title>
+        </head>
         <body>
           <main dangerouslySetInnerHTML={{__html: main}} />
           <script src='/bundle.js'></script>
