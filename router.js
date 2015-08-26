@@ -8,7 +8,13 @@ export default function router(req, res, next) {
     routes: routes,
     location: req.url
   };
-  Router.create(context).run(function ran(Handler, state) {
-    reactHtml: React.renderToString(<Handler />)
-  });
-}
+  Router.create(context).run(ran);
+  function ran(Handler, state) {
+    var doctype = '<!doctype html>';
+    var main = React.renderToString(<Handler />);
+    var full = React.renderToString(<Layout main={main} />);
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.write(doctype + full);
+    res.end();
+  }
+};
