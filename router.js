@@ -2,7 +2,7 @@ import React from 'react';
 import Router from 'react-router';
 import routes from './routes';
 
-export default class function router(req, res, next) {
+export default function router(req, res, next) {
   var context = {
     routes: routes,
     location: req.url
