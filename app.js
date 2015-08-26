@@ -14,16 +14,4 @@ app.locals.settings['x-powered-by'] = false;
 app.use(serveStatic('public'));
 app.use(router);
 
-function router(req, res, next) {
-  var context = {
-    routes: routes,
-    location: req.url
-  };
-  Router.create(context).run(function ran(Handler, state) {
-    res.render('layout', {
-      reactHtml: React.renderToString(<Handler />)
-    });
-  });
-}
-
 app.listen(process.env.PORT || 3000);
