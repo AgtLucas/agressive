@@ -1,5 +1,5 @@
 import React from 'react'
-import {RouteHandler} from 'react-router'
+import { RouteHandler } from 'react-router'
 import DocumentTitle from 'react-document-title'
 
 export default class App extends React.Component {
