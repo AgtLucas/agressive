@@ -1,6 +1,6 @@
-import React from 'react';
-import {RouteHandler} from 'react-router';
-import DocumentTitle from 'react-document-title';
+import React from 'react'
+import {RouteHandler} from 'react-router'
+import DocumentTitle from 'react-document-title'
 
 export default class App extends React.Component {
   render() {
@@ -10,4 +10,4 @@ export default class App extends React.Component {
       </DocumentTitle>
     )
   }
-};
+}
