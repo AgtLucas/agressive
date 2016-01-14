@@ -1,9 +1,9 @@
-import React from 'react';
-import DocumentTitle from 'react-document-title';
+import React from 'react'
+import DocumentTitle from 'react-document-title'
 
 export default class Layout extends React.Component {
   render() {
-    const {main} = this.props;
+    const {main} = this.props
 
     return(
       <html>
@@ -15,6 +15,6 @@ export default class Layout extends React.Component {
           <script src='/bundle.js'></script>
         </body>
       </html>
-    );
+    )
   }
-};
+}
